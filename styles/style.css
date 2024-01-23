@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+main {
+    width: 1600px;
+}
+
 /*******header styles*********/
 
 header {
@@ -43,3 +47,31 @@ header {
     font-weight: 600;
     border: 0;
 }
+
+/*failures section*/
+.failures-section {
+    display: flex;
+    gap: 75px;
+    
+
+}
+
+.column-1 {}
+
+.circle {
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: relative;
+}
+
+.circle img {
+    margin-top: 0;
+}
+
+.column-2 {}
+
+.column-2-content {}
+
+.column-2-title {}
