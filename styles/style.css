@@ -10,7 +10,7 @@ main {
 
 header {
     background-image: url('../images/banner/banner1.png');
-    height: 808px;
+    height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -48,30 +48,216 @@ header {
     border: 0;
 }
 
+main {
+    max-width: 1240px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 /*failures section*/
 .failures-section {
     display: flex;
-    gap: 75px;
-    
-
+    gap: 150px;
+    margin-top: 300px;
 }
 
-.column-1 {}
-
-.circle {
+.column-1 {
     width: 527.929px;
     height: 527.929px;
     border-radius: 527.929px;
     background: rgba(241, 91, 34, 0.20);
+    margin-left: 30px;
+}
+
+.column-1 img {
     position: relative;
+    bottom: 197px;
+    right: 23px;
+
 }
 
-.circle img {
-    margin-top: 0;
+.column-2 {
+    width: 350px;
 }
 
-.column-2 {}
+.column-2 h1 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
 
-.column-2-content {}
+.column-2 p {
+    color: var(--Dark-02, #444343);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 
-.column-2-title {}
+.column-2 img {
+    position: relative;
+    top: 5px;
+}
+
+.plans {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.plans h1 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plans-continer {
+    display: flex;
+    gap: 88px;
+    padding-top: 50px;
+}
+
+.plans-item h1 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plans-item p {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* .positive {
+    background-image: url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) );
+} */
+.positive {
+    padding: 130px 0px;
+
+}
+
+.image {
+    background-image: url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    position: relative;
+    background-size: cover;
+}
+
+.image h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.image button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    position: absolute;
+}
+
+
+.image::after {
+    position: absolute;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #151414;
+    height: 577px;
+}
+
+.footer-continer {
+    max-width: 1150px;
+    height: 500px;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+    gap: 350px;
+}
+
+.col-one {
+    width: 485px;
+    height: 300px;
+}
+
+.col-one h1 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.col-one p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.col-one img {
+    margin-right: 20px;
+}
+
+.col-two {
+    display: block;
+    width: 485px;
+    height: 300px;
+
+}
+
+.col-two h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.col-two input {
+    width: 250px;
+    height: 30px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 12px;
+    background: #151414;
+}
+
+.col-two button {
+    width: 170px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
